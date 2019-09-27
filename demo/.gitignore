@@ -1,0 +1,22 @@
+# ========================================================
+# Git管理対象からの除外設定
+# ========================================================
+#eclipse
+.project
+.classpath
+.settings
+RemoteSystemsTempFiles
+.metadata
+.recommenders
+
+#intellij
+.idea
+*.iml
+
+# Maven
+target
+
+# npm
+LOG_FILE_IS_UNDEFINED
+node_modules/
+bin
