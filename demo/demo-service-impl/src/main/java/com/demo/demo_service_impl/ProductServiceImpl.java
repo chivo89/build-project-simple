@@ -8,10 +8,12 @@ import org.demo.service.logic.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
+import org.springframework.stereotype.Service;
 
 import com.demo.api.data.dao.ProductDao;
 import com.demo.api.data.entity.Product;
 
+@Service
 public class ProductServiceImpl implements ProductService{
 
 	@Autowired
