@@ -25,6 +25,11 @@
     	<artifactId>demo-service</artifactId>
     	<version>${app.version}</version>
     </dependency>
+     <dependency>
+		<groupId>com.demo</groupId>
+    	<artifactId>demo-service-impl</artifactId>
+    	<version>${app.version}</version>
+    </dependency>
     <dependency>
 		<groupId>com.demo</groupId>
     	<artifactId>demo-dao</artifactId>

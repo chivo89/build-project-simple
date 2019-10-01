@@ -10,12 +10,21 @@ import lombok.EqualsAndHashCode;
 
 @Entity
 @Table
-@Data
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 @Builder
-public class Product {
+@Data
+public class Product{
+	/** コインID */
 	@Id
-	private String productId;
-	private String productNm;
+	private java.lang.String id;
+	/** 送信者ID */
+	private java.lang.String name;
+	public Product() {
+	}
+
+	public Product(java.lang.String id, java.lang.String name) {
+		this.id = id;
+		this.name = name;
+	}
 
 }

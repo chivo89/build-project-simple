@@ -10,7 +10,7 @@ import lombok.EqualsAndHashCode;
 @AllArgsConstructor
 @Builder
 public class ProductDto {
-	private String productId;
-	private String productName;
+	private String id;
+	private String name;
 
 }
